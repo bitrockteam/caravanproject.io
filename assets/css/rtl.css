@@ -1,0 +1,107 @@
+html{
+    direction: rtl;
+}
+.mainmenu-area .collapse.navbar-collapse .navbar-nav{
+    margin-right: auto;
+    margin-left: 0px!important;
+}
+
+
+input[type=email]{
+    direction: ltr;
+}
+
+.contact .address .list p i {
+    margin-right: auto;
+    margin-left: 10px;
+}
+.mainmenu-area .collapse.navbar-collapse .navbar-nav .nav-item:last-child a{
+    margin-right: 15px;
+    margin-left: 0px;
+}
+.hero-area .item .content,
+.about-product .about-item,
+.design-dna .section-content,
+.faq .faq-collapse .accordion .card .card-header,
+.faq .faq-collapse .accordion .card .card-body,
+.testimonial .testimonial-box .testomonial-item .clint-say,
+.contact .section-content,
+.home3 .how-it .how-it-owl-item .how-owl-content
+{
+    text-align: right;
+}
+
+.about-product .about-item .about-icon i {
+    margin-right: auto;
+    margin-left: 25px;
+}
+
+.how-it-owl,
+.testimonial-box,
+.owl-carousel
+{
+    direction: ltr;
+}
+
+.faq .faq-collapse .accordion .card .card-header .btn.btn-link.btn-block {
+
+    padding: 14px 19px 14px 55px !important;
+    text-align: right!important;
+}
+
+
+.faq .faq-collapse .accordion .card .card-header .btn.btn-link.btn-block::before {
+    right: auto;
+    left: 30px;
+}
+.faq .faq-collapse .accordion .card .card-header .btn.btn-link.btn-block::after {
+    right: auto;
+    left: 30px;
+}
+
+
+.contact .section-content ul li{
+    text-align: right;
+    padding-left: auto;
+    padding-right: 30px;
+}
+.contact .section-content ul li i{
+    left: auto;
+    right: 0px;
+}
+.footer .footer-content .footer-link ul li:last-child a{
+    margin-left: 0px;
+}
+
+
+.home3 .how-it .how-it-owl-item .how-owl-content .price-box{
+    display: block!important;
+}
+.home3 .how-it .how-it-owl-item .how-owl-content .price-box p{
+    display: inline-block;
+}
+
+.home3 .how-it .how-it-owl-item .how-owl-content a.how-btn{
+    margin-left: auto;
+}
+
+
+.mainmenu-area .collapse.navbar-collapse .navbar-nav li{
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,40 @@
+
+$white: #fff;
+$body-color: #444444;
+$body-color-2: #ececec;
+$heading-color: #333333;
+
+$bg-color1: #f5f5f5;
+$bg-color2: #fff;
+
+
+$facebook: #0069f7;
+$twitter: #00c6f7;
+$dribbble: #f7007a;
+$google-plus: #d1062c;
+$linkedin: #007bb5;
+
+/* Typography */
+
+// font-family: 'Montserrat', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+
+$body-font: 'Montserrat', sans-serif;
+
+//== font sizes
+$base-font-size: 16px !default;
+$font-size-h1: 80px !default;
+$font-size-h2: 54px !default;
+$font-size-h3: 24px !default;
+$font-size-h4: 20px !default;
+//** Unit-less `line-height` for use in components like buttons.
+$line-height: 1.875 !default;
+// border-radius
+$border-radius-5: 5px !default;
+$border-radius-25: 25px !default;
+$border-radius-3: 3px !default;
+$border-radius-circle: 50% !default;
+//  transition
+$transition: all .3s ease-in;
+$transition-long: all .5s ease-in;

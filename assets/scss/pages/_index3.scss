@@ -1,0 +1,263 @@
+ /* home-3 */
+ .home3 {
+
+     h2.header {
+         color: #000 !important;
+     }
+
+     h3 {
+         color: #000 !important;
+     }
+
+     h4 {
+         color: #000;
+     }
+
+     p.text {
+         color: #444444;
+     }
+
+     .section-content p.text {
+         color: #444444;
+     }
+
+
+     .hero-area .item .content .hero-btn {
+         background: #000;
+         &:hover {
+             background: #fff;
+             color: #000;
+         }
+     }
+
+     .hero-area .item .hero-area-image .discunt::after {
+        background: linear-gradient(0deg, rgb(49, 53, 153) 0%, rgb(38, 42, 120) 100%);
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.392);
+     }
+
+     .product-features .features-item::before,
+     .contact .contact-input-box button,
+     .faq .faq-collapse .accordion .card .card-header .btn.btn-link.btn-block[aria-expanded=true] {
+         background: linear-gradient(0deg, rgb(49, 53, 153) 0%, rgb(38, 42, 120) 100%);
+     }
+
+     .product-features {
+         background: #fff;
+     }
+
+     .about-product .about-item .about-icon i,
+     .product-features .features-item .content i {
+         background: linear-gradient(0deg, rgb(49, 53, 153) 0%, rgb(38, 42, 120) 100%);
+         -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
+     }
+
+     .product-features .features-item:hover .content i {
+         background: linear-gradient(0deg, rgb(49, 53, 153) 0%, rgb(38, 42, 120) 100%);
+         -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
+     }
+
+     .product-features .features-item:hover .content h3.head-h3 {
+         color: #fff !important;
+     }
+
+     .product-features .features-item:hover .content i {
+         background: linear-gradient(0deg, rgb(255, 255, 255)0%, rgb(255, 255, 255) 100%);
+         -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
+     }
+
+     .product-features .features-item.item-two {
+         margin-top: 0;
+     }
+
+     .about-product {
+         background: #f5f5f5;
+     }
+
+     .how-it {
+         background: #ffffff;
+     }
+
+     .design-dna {
+         background: #f5f5f5;
+     }
+
+     .important-features {
+         background: #444444;
+     }
+
+     .faq {
+         background: #ffffff;
+     }
+
+     .testimonial {
+         background: #f5f5f5;
+     }
+
+     .contact {
+         background: #ffffff;
+     }
+
+     .contact .contact-input-box button {
+         transition: $transition;
+     }
+
+     .contact .contact-input-box button:hover {
+         background: #fff;
+         color: #000000 !important;
+     }
+
+
+     .about-product .about-item .about-text p.text {
+         color: #444444 !important;
+     }
+
+
+     .contact .contact-input-box button:hover {
+         color: #ffffff;
+     }
+
+
+     .important-features .important-features-item .head-h3 {
+         color: #ffffff !important;
+     }
+
+
+     .faq .faq-collapse .accordion .card .card-header .btn.btn-link.btn-block {
+         color: #000;
+     }
+
+     .faq .faq-collapse .accordion .card .card-body {
+         color: #444444 !important;
+     }
+
+     .faq .faq-collapse .accordion .card .card-header .btn.btn-link.btn-block::after {
+         color: #000;
+     }
+
+     .testimonial .testimonial-box .testomonial-item {
+         background: #fff;
+     }
+
+     .testimonial .testimonial-box .testomonial-item .clint-say span {
+         background: linear-gradient(0deg, rgb(253, 5, 103) 0%, rgb(198, 0, 81) 100%);
+         -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
+     }
+
+     .testimonial .testimonial-box .testomonial-item .clint-say p {
+         color: #444444;
+     }
+
+     .testimonial .testimonial-box .owl-dots .owl-dot {
+         border: 2px solid #262a78;
+     }
+
+     .testimonial .testimonial-box .owl-dots .owl-dot.active {
+         background: linear-gradient(0deg, rgb(49, 53, 153) 0%, rgb(38, 42, 120) 100%);
+     }
+
+     .important-features {
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: center;
+     }
+
+     .design-dna .video a.video-play-btn {
+         background: linear-gradient(0deg, rgb(49, 53, 153) 0%, rgb(38, 42, 120) 100%);
+
+     }
+
+     input,
+     textarea,
+     button {
+         &::placeholder {
+            color: #444444a1;
+         }        
+     }
+
+     .contact .section-content ul li {
+         color: #444444 !important;
+
+         i {
+             background: linear-gradient(0deg, rgb(49, 53, 153) 0%, rgb(38, 42, 120) 100%);
+             -webkit-background-clip: text;
+             -webkit-text-fill-color: transparent;
+         }
+     }
+
+     .how-it .section-content {
+        padding-bottom: 55px;
+    }
+
+     .how-it .how-it-owl-item {
+         display: flex;
+         flex-direction: row;
+         background: #f5f5f5;
+         justify-content: center;
+         align-self: center;        
+         padding: 35px 35px 35px 30px ;
+     }
+
+     .how-it .how-it-owl-item .owl-image img {
+         border-right: 1px solid rgba(0, 0, 0, 0.267);
+         max-width: 100% ;
+         padding-right: 30px;
+     }
+
+
+     .how-it .how-it-owl-item .how-owl-content {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         padding-left: 35px;
+     }
+
+     .how-it .how-it-owl-item .how-owl-content .price-box{
+         display: flex;
+         flex-direction: row;
+          
+             p{
+                 margin-top: -5px;
+                 padding-top: 20px;
+                 padding-bottom: 20px;
+                &:first-child{
+                    font-size: 16px;
+                    font-weight: 700;
+                    color: #333333; 
+                    padding-right: 20px;
+                 }     
+                 &:last-child{
+                    background: linear-gradient(0deg, rgb(49, 53, 153) 0%, rgb(38, 42, 120) 100%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    font-size: 16px;
+                    font-weight: 700;
+                 }
+             }
+         
+     }
+  
+     
+     .how-it .how-it-owl-item .how-owl-content a.how-btn {
+        display: inline-block;
+        background: linear-gradient(0deg, rgb(49, 53, 153) 0%, rgb(38, 42, 120) 100%);
+        margin-top: 0px;
+        border: 1px solid #262a78;
+        max-width: 135px;
+        color: #fff;
+        padding: 10px 20px;
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 500;
+        border-radius: 3px;
+        cursor: pointer;
+        &:hover {
+            background: #fff;
+            color: #000000;
+        }
+    }
+
+ }

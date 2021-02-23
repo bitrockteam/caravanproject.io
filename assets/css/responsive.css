@@ -1,0 +1,437 @@
+
+
+
+/*******************************
+	All Responsive Code
+*******************************/
+
+@media (max-width: 1199px) {
+ 
+	.home3 .how-it .how-it-owl-item  .owl-image,
+	.home4 .how-it .how-it-owl-item .owl-image {
+		display: flex;
+		justify-content: center;
+		align-self: center;
+	}
+
+	.home3 .how-it .how-it-owl-item  .owl-image img,
+	.home4 .how-it .how-it-owl-item .owl-image img{
+		max-width: 100%;
+	}
+
+}
+
+@media (max-width: 991px) {
+img{
+	max-width: 80%;
+	text-align: center;
+	margin: 0 auto;
+}
+	h2.header {
+		font-size: 35px ;
+		line-height: 45px ;
+	}
+
+	.head-h3 {
+		font-size: 21px ;
+		line-height: 31px ;
+	}
+
+	/*Main-Menu Area */
+	.mainmenu-area {
+		position: fixed;
+		z-index: 9999;
+		background: rgba(0, 0, 0, 0.9);
+	}
+
+	.mainmenu-area ul.navbar-nav {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.mainmenu-area .collapse.navbar-collapse .navbar-nav .nav-item{
+		display: inline-block;
+	}
+	.mainmenu-area .collapse.navbar-collapse .navbar-nav .nav-item a{
+		display: inline-block;
+	}
+	.mainmenu-area .collapse.navbar-collapse .navbar-nav .nav-item a {
+		margin: 6px 15px;
+	}
+	.mainmenu-area .collapse.navbar-collapse .navbar-nav .nav-item a::before {
+		bottom: -2px;
+	}
+
+	/*  Hero Area Start  */
+	.hero-area .item {
+		padding-top: 156px;
+		padding-bottom: 80px;
+	}
+
+	.hero-area .item .container .reverse {
+		flex-direction: column-reverse;
+	}
+
+	.hero-area .item .content h1.title {
+		font-size: 40px;
+		line-height: 50px;
+		margin-bottom: 24px;
+		margin-top: 30px;
+	}
+
+	.hero-area .item .hero-area-image {
+		text-align: center;
+		max-width: 50%;
+		margin: 0 auto;
+	}
+
+	/* Product Features */
+	.product-features {
+		padding-top: 72px;
+		padding-bottom: 81px;
+	}
+
+	.product-features .product-image {
+		max-width: 50%;
+		margin: 0 auto 38px auto;
+	}
+
+	.product-features .features-item.item-one,
+	.product-features .features-item.item-two {
+		margin-bottom: 30px;
+	}
+
+	.product-features .features-item.item-four,
+	.product-features .features-item.item-two {
+		margin-top: 0;
+	}
+
+	/* About The Product */
+	.about-product {
+		padding-top: 71px;
+		padding-bottom: 76px;
+	}
+
+	.about-product .container .reverse {
+		flex-direction: column-reverse;
+	}
+
+	.about-product .about-product-img {
+		text-align: center;
+		max-width: 50%;
+		margin: 0 auto 40px auto;
+	}
+
+	/* How It Stacks Up Start */
+	.how-it {
+		padding-top: 71px;
+		padding-bottom: 53px;
+	}
+
+	/* Design DNA  */
+	.design-dna {
+		padding-top: 72px;
+		padding-bottom: 80px;
+	}
+
+	.design-dna .section-content {
+		margin-bottom: 40px;
+	}
+
+	/*  Important-Features Start */
+	.important-features {
+		padding-top: 72px;
+		padding-bottom: 38px;
+	}
+
+	.important-features .important-features-item .head-h3 span {
+		font-size: 16px;
+		line-height: 26px;
+		margin-top: 0;
+	}
+
+	.important-features .mr-30 {
+		margin-bottom: 30px;
+	}
+
+	/* // FAQ Start */
+	.faq {
+		padding-top: 71px;
+		padding-bottom: 51px;
+	}
+
+	/* Testimonial Start */
+	.testimonial {
+		padding-top: 71px;
+		padding-bottom: 121px;
+	}
+
+	.testimonial .testimonial-box .testomonial-item {
+		display: flex;
+		flex-direction: column;
+		background: #fff;
+		text-align: center;
+	}
+
+	.testomonial-item img {
+		max-width: 100px;
+		height: 100px;
+		border-radius: 50%;
+		margin: 40px auto 0 auto;
+		display: inline-block !important;
+	}
+
+	/* Contact Start */
+	.contact {
+		padding-top: 71px;
+		padding-bottom: 81px;
+	}
+
+	.contact .reverse {
+		flex-direction: column-reverse;
+	}
+
+	.contact .section-content {
+		margin-bottom: 40px;
+	}
+
+	/* our-office-map */
+	.our-office-map iframe {
+		height: 350px;
+	}
+
+	/* footer */
+	.footer {
+		padding-top: 50px;
+		padding-bottom: 35px;
+	}
+
+	.footer .footer-content {
+		flex-direction: column;
+	}
+
+	.footer .footer-content .footer-icon {
+		margin-bottom: 20px;
+	}
+
+
+
+
+}
+
+@media (max-width: 767px) {
+	.mainmenu-area a.navbar-brand img {
+		max-width: 150px;
+	}
+	.hero-area .item .hero-area-image {
+		text-align: center;
+		max-width: 70%;
+		margin: 0 auto;
+	}
+	.product-features .product-image {
+		max-width: 70%;
+		margin: 0 auto 38px auto;
+	}
+	.about-product .about-product-img {
+		text-align: center;
+		max-width: 70%;
+		margin: 0 auto 40px auto;
+	}
+
+	.product-features .features-item.item-three {
+		margin-bottom: 30px;
+	}
+
+
+	/*  Important-Features Start */
+	.important-features .mr-30 {
+		margin-bottom: 30px;
+	}
+
+	.product-features .features-item.item-three {
+		margin-bottom: 30px;
+	}
+
+	/*How It Stacks Up Content */	
+	.how-it-owl .how-it-owl-item img {
+		max-width: 100%;
+		margin: 0 auto;
+	}
+
+    /* testomonial */
+	.testomonial-item img {
+		max-width: 100px;
+		height: 100px;
+		border-radius: 50%;
+		margin: 40px auto 0 auto;
+		display: inline-block !important;
+	}
+	/* footer */
+	.footer .footer-content .footer-link ul li a {
+		padding: 5px;
+		margin-left: 10px;
+	}
+
+	.testimonial .testimonial-box .testomonial-item {
+		display: block;
+		text-align: center;
+	}
+ 
+
+
+	 
+}
+
+@media (max-width: 575px) {
+	.hero-area .item .content h1.title {
+		font-size: 35px ;
+		line-height: 45px ;
+	}
+
+	h2.header {
+		font-size: 30px !important ;
+		line-height: 40px !important ;
+	}
+
+	.head-h3 {
+		font-size: 20px !important;
+		line-height: 30px !important;
+	}
+
+	.hero-area .item .hero-area-image img{
+		text-align: center;
+		max-width: 85%;
+		margin: 0 auto;
+	}
+	.product-features .product-image{
+		text-align: center;
+	}
+	
+	.product-features .product-image img{
+		max-width: 85%;
+		margin: 0 auto 0 auto;
+	}
+	.about-product .about-product-img img{
+		text-align: center;
+		max-width: 85%;
+		margin: 0 auto 0 auto;
+	}
+	.how-it-owl .how-it-owl-item img {
+		max-width: 60%;
+		margin: 0 auto;
+	}
+
+	.hero-area {
+		text-align: center;
+	}
+
+	.design-dna .section-content {
+		text-align: center;
+	}
+
+	.contact .section-content {
+		text-align: left;
+	}
+
+	.how-it .how-it-owl-item .how-owl-content a.base-btn2.how-btn {
+		max-width: 90% !important;
+	}
+
+}
+
+@media (max-width: 414px) {
+	.hero-area .item .hero-area-image .discunt {
+		position: absolute;
+		top: -27px;
+		left: 36px;
+		z-index: 999;
+		font-size: 20px;
+		font-weight: 700;
+		line-height: 30px;
+		color: #fff;
+	}
+	.hero-area .item .hero-area-image img{
+		max-width: 100%;
+	}
+	.product-features .product-image{
+		max-width: 80%;
+	}
+	
+	.product-features .product-image img{
+		max-width: 100%;
+	}
+	.about-product .about-product-img img{
+		max-width: 100%;
+	}
+
+	.how-it-owl .how-it-owl-item img {
+			max-width: 80%;
+			margin: 0 auto;
+	}
+
+	.home3 .how-it .how-it-owl-item ,
+	.home4 .how-it .how-it-owl-item{
+		display: flex;
+		flex-direction: column;
+		padding: 30px 30px 30px 0px;
+		margin: 0;
+	}
+
+	.home3 .how-it .how-it-owl-item  .owl-image,
+	.home4 .how-it .how-it-owl-item .owl-image {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.home3 .how-it .how-it-owl-item  .owl-image img,
+	.home4 .how-it .how-it-owl-item .owl-image img{
+		max-width: 80%;
+		border: 0px;
+		margin-bottom: 30px;
+		padding: 0;
+	}
+
+	.home3 .how-it .how-it-owl-item .how-owl-content,
+	.home4 .how-it .how-it-owl-item .how-owl-content {
+		align-items: center;
+		padding: 0px 30px; 
+	}
+
+	.home3 .how-it .how-it-owl-item .how-owl-content  p.text,
+	.home4 .how-it .how-it-owl-item .how-owl-content p.text {
+		text-align: center;
+	}
+ 
+
+}
+
+@media (max-width: 360px) {
+	img{
+		max-width: 100%;
+	}
+	.hero-area .item .hero-area-image .discunt {
+		position: absolute;
+		top: -25px;
+		left: 27px;
+		z-index: 999;
+		font-size: 16px;
+		font-weight: 700;
+		line-height: 26px;
+		color: #fff;
+	}
+	.hero-area .item .hero-area-image .discunt::after {
+		position: absolute;
+		top: -13px;
+		left: -18px;
+		width: 70px;
+		height: 70px;
+		content: "";
+		border-radius: 50%;
+		z-index: -1;
+		background: #4364F7;
+	}
+		/*How It Stacks Up Content */	
+		.how-it-owl .how-it-owl-item img {
+			max-width: 100%;
+		}
+}

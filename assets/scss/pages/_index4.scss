@@ -1,0 +1,264 @@
+ /* home-4 */
+ .home4 {
+
+     h2.header {
+         color: #fff !important;
+     }
+
+     h3 {
+         color: #fff !important;
+     }
+
+     h4 {
+         color: #fff;
+     }
+
+     p.text {
+         color: #ececec;
+     }
+
+
+     .hero-area .item .hero-area-image .discunt::after {
+        background: linear-gradient(to left, rgba(72,94,147,1) 0%,rgba(113,133,180,1) 100%);
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.392);
+     }
+
+     
+     .hero-area .item .content .hero-btn {
+        background: linear-gradient(to left, rgba(72,94,147,1) 0%,rgba(113,133,180,1) 100%);
+        &:hover {
+            background: #fff;
+            color: #000;
+        }
+    }
+
+
+     .product-features {
+         background: #343434;
+     }
+
+     .about-product {
+         background: #444444;
+     }
+
+     .how-it {
+         background: #343434;
+     }
+
+     .design-dna {
+         background: #444444;
+     }
+
+     .important-features {
+         background: #444444;
+     }
+
+     .faq {
+         background: #343434;
+     }
+
+     .testimonial {
+         background: #444444;
+     }
+
+     .contact {
+         background: #343434;
+     }
+
+     .section-content p.text {
+         color: #ececec;
+     }
+
+     .product-features .features-item::before,
+     .contact .contact-input-box button,
+     .faq .faq-collapse .accordion .card .card-header .btn.btn-link.btn-block[aria-expanded=true] {
+        background: linear-gradient(to left, rgba(72,94,147,1) 0%,rgba(113,133,180,1) 100%);
+     }
+
+     .about-product .about-item .about-icon i,
+     .product-features .features-item .content i {
+        background: linear-gradient(to left, rgba(72,94,147,1) 0%,rgba(113,133,180,1) 100%);
+         -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
+     }
+
+     .product-features .features-item:hover .content i {
+         background: #ffffff;
+         background: -webkit-linear-gradient(to right, #ffffff, #ffffff, #ffffff);
+         background: linear-gradient(to right, #ffffff, #ffffff, #ffffff);
+         -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
+     }
+
+     .product-features .features-item {
+         border: 1px solid #5d5d5d;
+     }
+
+     .product-features .features-item.item-two {
+         margin-top: 0 !important;
+     }
+
+     .faq .faq-collapse .accordion .card .card-header {
+         background: transparent !important;
+     }
+
+     .faq .faq-collapse .accordion .card .card-header .btn.btn-link.btn-block {
+         color: #fff !important;
+     }
+
+     .faq .faq-collapse .accordion .card {
+         background: transparent;
+         border: 1px solid #5d5d5d;
+     }
+
+     .faq .faq-collapse .accordion .card .card-body {
+         color: #ececec !important;
+     }
+
+     .faq .faq-collapse .accordion .card .card-header .btn.btn-link.btn-block::after {
+         color: #fff;
+     }
+
+     .design-dna .video a.video-play-btn {
+        background: linear-gradient(to left, rgba(72,94,147,1) 0%,rgba(113,133,180,1) 100%);
+    }
+
+    .testimonial .testimonial-box .testomonial-item .clint-say span{
+        background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .testimonial .testimonial-box .owl-dots .owl-dot {
+        border: 2px solid #7185b4 ;
+    }
+    .testimonial .testimonial-box .owl-dots .owl-dot.active {
+        background: linear-gradient(to left, rgba(72,94,147,1) 0%,rgba(113,133,180,1) 100%);
+    }
+
+     .testimonial .testimonial-box .testomonial-item {
+         background: #343434;
+     }
+
+     .testimonial .testimonial-box .testomonial-item .clint-say span {
+         color: #fff;
+     }
+
+     .testimonial .testimonial-box .testomonial-item .clint-say p {
+         color: #ececec;
+     }
+
+     .testimonial .testimonial-box .owl-next,
+     .testimonial .testimonial-box .owl-prev {
+         color: #ddd !important;
+     }
+
+     .contact .section-content ul li {
+         color: #ececec !important;
+     }
+
+     .contact .contact-input-box input,
+     .contact .contact-input-box textarea,
+     .contact .contact-input-box button {
+         border-bottom: 1px solid #5d5d5d;
+         &::placeholder {
+             color: #918888 !important;
+         }
+     }
+
+     .contact .contact-input-box{
+        input,
+        textarea,
+        button{
+            color: #ffffff;
+        }
+    }
+
+     .contact .contact-input-box button {
+        background: linear-gradient(to left, rgba(72,94,147,1) 0%,rgba(113,133,180,1) 100%);
+         border: 1px solid transparent;
+         &:hover {
+             background: #fff;
+             color: #000;
+         }
+     }
+
+     .contact .section-content ul li i {
+        background: linear-gradient(to left, rgba(72,94,147,1) 0%,rgba(113,133,180,1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+     .contact .form-control {
+         background: transparent !important;
+     }
+
+     .how-it .section-content {
+        padding-bottom: 55px;
+    }
+
+     .how-it .how-it-owl-item {
+         display: flex;
+         flex-direction: row;
+         background: #444444;
+         justify-content: center;
+         align-self: center;        
+         padding: 35px 35px 35px 30px ;
+     }
+
+     .how-it .how-it-owl-item .owl-image img {
+        border-right: 1px solid #9898984d;
+         max-width: 100% ;
+         padding-right: 30px;
+     }
+
+     .how-it .how-it-owl-item .how-owl-content {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         padding-left: 35px;
+     }
+
+     .how-it .how-it-owl-item .how-owl-content .price-box{
+        display: flex;
+        flex-direction: row;       
+            p{
+                margin-top: -5px;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                font-weight: 700;
+                color: #fff;
+               &:first-child{
+                   padding-right: 20px;
+                }     
+           }
+        
+    }
+  
+     .how-it .how-it-owl-item .how-owl-content a.how-btn {
+        display: inline-block;
+        background: linear-gradient(to left, rgba(72,94,147,1) 0%,rgba(113,133,180,1) 100%);
+        margin-top: 0px;
+        border: 1px solid #7185b4 ;
+        max-width: 135px;
+        color: #fff;
+        padding: 10px 20px;
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 500;
+        border-radius: 3px;
+        cursor: pointer;
+        &:hover {
+            background: #fff;
+            color: #000000;
+        }
+    }
+
+    .important-features{
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+      
+ }

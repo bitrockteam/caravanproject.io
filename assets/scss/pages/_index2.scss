@@ -1,0 +1,179 @@
+ /* home-2 */
+.home2 {
+
+    h2.header {
+        color: #fff !important;
+    }
+
+    h3 {
+        color: #fff !important;
+    }
+
+    h4 {
+        color: #fff;
+    }
+
+    p.text {
+        color: #ececec;
+    }
+   
+    .hero-area .item .hero-area-image .discunt::after {
+        background: linear-gradient(0deg, #fd0567 0%, #c60051 100%);  
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.392);  
+    }
+
+    .hero-area .item .content .hero-btn {
+        background: linear-gradient(0deg, #fd0567 0%, #c60051 100%); 
+        &:hover {
+            background: #fff;
+            color: #000;
+        }
+    }
+
+    .product-features {
+        background: #343434;
+    }
+    .product-features .features-item {
+        border: 1px solid #5d5d5d;
+    }
+
+    .product-features .features-item  {
+        &::before{
+            background: linear-gradient(0deg, rgb(253, 5, 103) 0%, rgb(198, 0, 81) 100%);
+        }
+    }
+
+    .about-product {
+        background: #444444;
+    }
+
+    .how-it {
+        background: #343434;
+    }
+    .how-it .how-it-owl .how-it-owl-item {
+        border: 1px solid #5d5d5d;
+    }
+    .how-it .how-it-owl .how-it-owl-item .owl-image {
+        background: #444444;
+    }
+    .how-it .how-it-owl .how-it-owl-item .how-owl-content .price-box{
+        background: #444444;
+       p{
+        color: #ffffff;
+       }
+    }
+    .how-it .how-it-owl .how-it-owl-item .how-owl-content .how-btn{
+        color: #ffffff;
+        border: 1px solid #c60051;
+        background: transparent;
+        &:hover{
+            background: linear-gradient(0deg, rgb(253, 5, 103) 0%, rgb(198, 0, 81) 100%);
+        }
+    }
+
+    .design-dna {
+        background: #444444;
+    }
+
+    .important-features {
+        background: #444444;
+    }
+
+    .faq {
+        background: #343434;
+    }
+
+    .testimonial {
+        background: #444444;
+    }
+
+    .contact {
+        background: #343434;
+    }
+
+    .section-content p.text {
+        color: #ececec;
+    }
+
+    .about-product .about-item .about-text p.text {
+        color: #fff !important;
+    }
+
+   
+    .faq .faq-collapse .accordion .card .card-header{
+        background: transparent !important;      
+    }
+
+    .faq .faq-collapse .accordion .card .card-header .btn.btn-link.btn-block{
+        color: #fff;    
+    }
+    
+
+    .faq .faq-collapse .accordion .card {
+        background: transparent;
+        border: 1px solid #5d5d5d;
+    }
+
+    .faq .faq-collapse .accordion .card .card-body {
+        color: #ececec !important;
+    }
+
+    .faq .faq-collapse .accordion .card .card-header .btn.btn-link.btn-block::after{
+        color: #fff;
+    }
+    .testimonial .testimonial-box .testomonial-item {
+        background: #343434;
+    }
+    .testimonial .testimonial-box .testomonial-item .clint-say span{
+        background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .testimonial .testimonial-box .testomonial-item .clint-say p {
+        color: #ececec;
+    }
+
+    .testimonial .testimonial-box .owl-next, .testimonial .testimonial-box .owl-prev {
+        color: #ddd !important;
+    }
+
+    .contact .section-content ul li {
+        color: #ececec !important;
+    }
+    .contact .contact-input-box input, 
+    .contact .contact-input-box textarea,
+     .contact .contact-input-box button {
+        border-bottom: 1px solid #636262;
+        &::placeholder {
+            color: #918888;
+        }
+    }
+    .contact .contact-input-box{
+        input,
+        textarea,
+        button{
+            color: #ffffff;
+        }
+    }
+    
+
+    .contact .contact-input-box button{
+        background: linear-gradient(to right, #f60464 0%, #ce0154 100%);
+        border: 1px solid transparent;
+        &:hover{
+            background: #fff;
+            color: #000;
+        }
+    }
+  
+    .contact  .form-control {
+        background: transparent !important;
+    }
+
+    .faq .faq-collapse .accordion .card .card-header .btn.btn-link.btn-block {
+        color: #fff !important;
+    }
+
+}
+
+
