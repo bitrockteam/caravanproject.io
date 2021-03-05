@@ -4,11 +4,19 @@
     background: #fff;
     padding: 20px;
     width: 100%;
+    height:90vh;
+    max-height:100vh;
     max-width: 1280px;
     margin: 20px auto;
   }
+
+  .popup-modal-dismiss {
+    color:#f79819 !important;
+  }
 </style>
 <div id="asciinema-modal" class="white-popup-block">
+  <p><a class="popup-modal-dismiss" href="#">Dismiss</a></p>
+  <br/>
   <asciinema-player
     id="asciinema-player-modal"
     src="https://caravanproject.io/assets/video/395886.cast"
@@ -17,5 +25,5 @@
     speed="2"
     theme="solarized-dark"
   ></asciinema-player>
-  <p><a class="popup-modal-dismiss" href="#">Dismiss</a></p>
+  
 </div>

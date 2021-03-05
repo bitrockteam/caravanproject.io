@@ -354,6 +354,20 @@ p {
 
 /* Main-Menu Area End */
 /*  Hero Area Start  */
+
+.white-popup-block {
+  position: relative;
+  background: #fff;
+  padding: 20px;
+  width: 100%;
+  max-width: 1280px;
+  margin: 20px auto;
+}
+
+.popup-modal-dismiss {
+  color:#f79819;
+  padding:12px 0;
+}
 .hero-area .item {
   background-size: cover;
   background-position: center;
