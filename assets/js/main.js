@@ -5,7 +5,7 @@ $(function ($) {
 
     // Navbar collapse on click
     $('.mainmenu-area #navbarNav .nav-link').on('click', function () {
-          $('.navbar-collapse').collapse('hide');
+      $('.navbar-collapse').collapse('hide');
     });
 
     // link will target id and scroll
@@ -14,16 +14,16 @@ $(function ($) {
       $("html, body")
         .stop()
         .animate({
-          scrollTop: $($anchor.attr("href")).offset().top - 80,
-        },
+            scrollTop: $($anchor.attr("href")).offset().top - 80,
+          },
           1000
         );
       event.preventDefault();
     });
-       //scrollspy menu
-       $('body').scrollspy({
-        target: '#navbarNav',
-        offset: 100
+    //scrollspy menu
+    $('body').scrollspy({
+      target: '#navbarNav',
+      offset: 100
     });
 
 
@@ -107,8 +107,8 @@ $(function ($) {
     /*back to top-*/
     $(document).on("click", "#scrollUp", function () {
       $("html,body").animate({
-        scrollTop: 0,
-      },
+          scrollTop: 0,
+        },
         2000
       );
     });
@@ -138,6 +138,14 @@ $(function ($) {
     //   Magnific Popup Activation Probucket
     $(".youtube-video").magnificPopup({
       type: "video",
+    });
+    $(".hero-area-image").magnificPopup({
+      type: "ajax",
+      modal: "true"
+    });
+    $(document).on('click', '.popup-modal-dismiss', function (e) {
+      e.preventDefault();
+      $.magnificPopup.close();
     });
   });
 
