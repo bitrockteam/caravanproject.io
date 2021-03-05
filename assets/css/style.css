@@ -1119,6 +1119,7 @@ p {
 }
 .home2 .product-features .features-item {
   border: 1px solid #5d5d5d;
+  margin-top:40px;
 }
 .home2 .product-features .features-item::before {
   background: linear-gradient(0deg, #f79819 0%, #f79819 100%);
