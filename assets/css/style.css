@@ -1659,35 +1659,38 @@ p {
 
 .camel-and-logos > img {
   position:absolute;
-  width:80px;
+  width:60px;
 }
 
 .camel-and-logos > img:nth-of-type(2) {
-  top:100px;
+  top:120px;
   left:-80px;
+  width:50px;
 }
 
 .camel-and-logos > img:nth-of-type(3) {
-  top:0;
-  left:0;
-  width:60px;
+  top:20px;
+  left:-40px;
 }
 
 .camel-and-logos > img:nth-of-type(4) {
-  top:-60px;
-  left:50%;
-  transform:translateX(-50%);
-  width:60px;
+  top:-50px;
+  left:40px;
+  width:80px;
 }
 
 .camel-and-logos > img:nth-of-type(5) {
-  top:0;
-  right:0;
-  width:60px;
+  top:-45px;
+  right:100px;
+  width:50px;
 }
 
 .camel-and-logos > img:nth-of-type(6) {
-  top:100px;
-  right:-50px;
-  width:60px;
+  top:20px;
+  right:-20px;
+}
+
+.camel-and-logos > img:nth-of-type(7) {
+  top:120px;
+  right:-60px;
 }
